@@ -1,5 +1,5 @@
 // STOPWATCH PROGRAM
-
+//My new comment
 const display = document.getElementById("display");
 let timer = null;
 let startTime = 0;
