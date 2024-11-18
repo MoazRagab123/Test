@@ -1,5 +1,6 @@
 // STOPWATCH PROGRAM
 //My new comment
+//My second new comment
 const display = document.getElementById("display");
 let timer = null;
 let startTime = 0;
