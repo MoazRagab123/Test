@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(232, 232, 230);
+}
+#myH1{
+  font-size: 5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  color: hsla(237, 89%, 48%, 0.885);
+}
+#continer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    border-radius:50px ;
+    padding: 30px;
+    background-color: white;
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(19, 5, 72);
+    box-shadow: 2px 2px 5px hsla(340, 33%, 5%, 0.399);
+    border: none;
+    margin-bottom: 25px;
+    
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease;
+}
+#btnStart{
+ background-color: hsl(123, 91%, 37%);
+}
+#btnStart:hover{
+    background-color: hsl(123, 91%, 30%);
+   }
+
+#btnReset{
+   background-color: hsl(18, 88%, 46%); 
+}
+#btnReset:hover{
+    background-color: hsl(18, 88%, 40%); 
+   }
+
+#btnStop{
+    background-color: hsl(0, 88%, 46%); 
+}
+#btnStop:hover{
+    background-color: hsl(0, 88%, 40%);
+   }
